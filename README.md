@@ -5,3 +5,4 @@
 [Learning to program in C part 1](https://www.youtube.com/watch?v=rk2fK2IIiiQ) </br>
 [Learning to program in C part 2](https://www.youtube.com/watch?v=FwpP_MsZWnU) </br>
 [Understanding C program Compilation Process](https://www.youtube.com/watch?v=VDslRumKvRA) </br>
+[Linus Torvalds on C vs. C++](http://harmful.cat-v.org/software/c++/linus) </br>
