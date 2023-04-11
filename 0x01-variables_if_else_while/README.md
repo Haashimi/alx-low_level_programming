@@ -6,3 +6,4 @@
 [Arithmetic Operators in C](https://www.tutorialspoint.com/cprogramming/c_arithmetic_operators.htm) </br>
 [If statements in C](https://www.cprogramming.com/tutorial/c/lesson2.html) </br>
 [if…else statement](https://www.tutorialspoint.com/cprogramming/if_else_statement_in_c.htm) </br>
+[Relational operators](https://www.tutorialspoint.com/cprogramming/c_relational_operators.htm) </br>
