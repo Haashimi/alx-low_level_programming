@@ -7,3 +7,6 @@
 [If statements in C](https://www.cprogramming.com/tutorial/c/lesson2.html) </br>
 [if…else statement](https://www.tutorialspoint.com/cprogramming/if_else_statement_in_c.htm) </br>
 [Relational operators](https://www.tutorialspoint.com/cprogramming/c_relational_operators.htm) </br>
+[Logical operators](https://www.fresh2refresh.com/c-programming/c-operators-expressions/c-logical-operators/) </br>
+[while loop in C](https://www.tutorialspoint.com/cprogramming/c_while_loop.htm)</br>
+[While loop](https://www.youtube.com/watch?v=Ju1LYO9pkaI)</br>
