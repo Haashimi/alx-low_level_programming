@@ -11,7 +11,7 @@
 
 **Tasks** </br>
 
-**0. Object-like Macro**
+**0. Object-like Macro** </br>
 	* Create a header file that defines a macro named SIZE as an abbreviation for the token 1024. </br>
 
 **1. Pi** </br>
