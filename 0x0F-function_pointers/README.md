@@ -84,7 +84,6 @@ This file should contain the function that selects the correct function to perfo
 - You are not allowed to use more than one while loop in your code
 - If s does not match any of the 5 expected operators (+, -, *, /, %), return NULL
 - You are only allowed to declare these two variables in this function:
-
 ```
  op_t ops[] = {
         {"+", op_add},
@@ -96,3 +95,30 @@ This file should contain the function that selects the correct function to perfo
     };
     int i;
 ```
+### 3-main.c </br>
+This file should contain your main function only.
+- You are not allowed to code any other function than main in this file
+- You are not allowed to directly call op_add, op_sub, op_mul, op_div or op_mod from the - main function
+- You have to use atoi to convert arguments to int
+- You are not allowed to use any kind of loop
+- You are allowed to use a maximum of 3 if statements
+### Compilation and examples </br>
+```
+julien@ubuntu:~/0x0e. Function pointers$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 3-main.c 3-op_functions.c 3-get_op_func.c -o calc
+julien@ubuntu:~/0x0e. Function pointers$ ./calc 1 + 1
+2
+julien@ubuntu:~/0x0e. Function pointers$ ./calc 97 + 1
+98
+julien@ubuntu:~/0x0e. Function pointers$ ./calc 1024 / 10
+102
+julien@ubuntu:~/0x0e. Function pointers$ ./calc 1024 '*' 98
+100352
+julien@ubuntu:~/0x0e. Function pointers$ ./calc 1024 '\*' 98
+Error
+julien@ubuntu:~/0x0e. Function pointers$ ./calc 1024 - 98
+926
+julien@ubuntu:~/0x0e. Function pointers$ ./calc 1024 '%' 98
+44
+julien@ubuntu:~/0x0e. Function pointers$ 
+```
+
