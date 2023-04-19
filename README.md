@@ -3,9 +3,9 @@
 This repository contains programs written for the low-level programming and algorithm track in the ALX Software Engineering Program.</br>
 All These Projects was completed as part of the curriculum for the [ALX-SE programme.](https://www.alxafrica.com/software-engineering/)
 
-### [ALX Africa](https://www.alxafrica.com/) ALX is a leading technology training provider, built to accelerate the careers of young Africans through the technology and professional skills that enable them to thrive in the digital economy. </br>
+### [ALX Africa] ### (https://www.alxafrica.com/) ALX is a leading technology training provider, built to accelerate the careers of young Africans through the technology and professional skills that enable them to thrive in the digital economy. </br>
 
-### [Author✍️ :](https://github.com/Haashimi) </br>
+### Author✍️ : [Haashimi](https://github.com/Haashimi) </br>
 
 ### Projects </br>
 
