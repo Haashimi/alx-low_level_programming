@@ -1,8 +1,11 @@
-# Low-Level Programming - Data Structures, Algorithms, Linux/Unix System Programming </br>
+# Low-Level Programming in C</br>
 
-This repository contains programs written for the low-level programming and algorithm track in the ALX Software Engineering Program.
-In these projects I learned about low-level programming concepts while working in the C programming language, data structures and  algorithms. 
-The specific list of projects contained follows:</br>
+This repository contains programs written for the low-level programming and algorithm track in the ALX Software Engineering Program.</br>
+All These Projects was completed as part of the curriculum for the [ALX-SE programme.](https://www.alxafrica.com/software-engineering/)
+
+### [ALX Africa](https://www.alxafrica.com/) ALX is a leading technology training provider, built to accelerate the careers of young Africans through the technology and professional skills that enable them to thrive in the digital economy. </br>
+
+### [Author✍️ :](https://github.com/Haashimi) </br>
 
 ### Projects </br>
 
@@ -21,3 +24,6 @@ The specific list of projects contained follows:</br>
 - [0x0C. C - More malloc, free](./0x0C-more_malloc_free)
 - [0x0D. C - Preprocessor](./0x0D-preprocessor)
 - [0x0E. C - Structures, typedef](./0x0E-structures_typedef)
+
+
+
