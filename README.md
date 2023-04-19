@@ -25,6 +25,6 @@ All These Projects was completed as part of the curriculum for the [ALX-SE progr
 - [0x0C. C - More malloc, free](./0x0C-more_malloc_free)
 - [0x0D. C - Preprocessor](./0x0D-preprocessor)
 - [0x0E. C - Structures, typedef](./0x0E-structures_typedef)
-
+- [0x0F. C - Function pointers](./0x0F-function_pointers)
 
 
