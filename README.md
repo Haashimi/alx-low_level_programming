@@ -1,8 +1,9 @@
-0x00. C - Hello, World </br>
-**Resources** </br>
-[“C” Programming Language: Brian Kernighan](https://www.youtube.com/watch?v=de2Hsvxaf8M) </br>
-[Why C Programming Is Awesome](https://www.youtube.com/watch?v=smGalmxPVYc) </br>
-[Learning to program in C part 1](https://www.youtube.com/watch?v=rk2fK2IIiiQ) </br>
-[Learning to program in C part 2](https://www.youtube.com/watch?v=FwpP_MsZWnU) </br>
-[Understanding C program Compilation Process](https://www.youtube.com/watch?v=VDslRumKvRA) </br>
-[Linus Torvalds on C vs. C++](http://harmful.cat-v.org/software/c++/linus) </br>
+# Low-Level Programming - Data Structures, Algorithms, Linux/Unix System Programming </br>
+
+This repository contains programs written for the low-level programming and algorithm track in the ALX Software Engineering Program.
+In these projects I learned about low-level programming concepts while working in the C programming language, data structures and  algorithms. 
+The specific list of projects contained follows:</br>
+
+### Projects </br>
+
+- [0x00. C - Hello, World](./0x00-hello_world)
