@@ -21,9 +21,9 @@
 ### 2. File name
 - Write a program that prints the name of the file it was compiled from, followed by a new line.
 
-## 3. Function-like macro
+### 3. Function-like macro
 - Write a function-like macro ABS(x) that computes the absolute value of a number x.
 
-## 4. SUM 
+### 4. SUM 
 - Write a function-like macro SUM(x, y) that computes the sum of the numbers x and y
 
