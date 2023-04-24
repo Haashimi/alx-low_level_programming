@@ -2,4 +2,8 @@
 
 ## Resources </br>
 #### Read or watch: </br>
-- <span style = "color: red" > Do I cast the result of malloc? </span>
+- [Do I cast the result of malloc?](https://stackoverflow.com/questions/605845/do-i-cast-the-result-of-malloc)
+#### man or help:
+- exit 3
+- calloc
+- realloc
