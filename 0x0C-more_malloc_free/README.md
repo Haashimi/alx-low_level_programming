@@ -2,4 +2,4 @@
 
 ## Resources </br>
 #### Read or watch: </br>
-- ``` - Do I cast the result of malloc? ```
+- <span style = "color: red" > Do I cast the result of malloc? </span>
