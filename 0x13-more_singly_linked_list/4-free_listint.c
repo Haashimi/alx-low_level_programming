@@ -1,21 +1,19 @@
 #include "lists.h"
 
 /**
- * free_listint - free list
+ * free_listint - freedom of list
  *
- * @head: pointer to the first node of the list
+ * @head: pointer for the head node
  *
- * Return: nothing
-*/
+ * Return: its a void function duuh
+ */
 void free_listint(listint_t *head)
 {
-	listint_t *current;
+	listint_t *jeff;
 
-	/*iterate through each node in list*/
-	while ((current = head) != NULL)
+	while ((jeff = head) != NULL)
 	{
-		/*set head as the next node*/
 		head = head->next;
-		free(current);
+		free(jeff);
 	}
 }
