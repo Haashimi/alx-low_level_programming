@@ -1,25 +1,23 @@
 #include "lists.h"
 
 /**
- * reverse_listint - function that reverse a list
- * @head: pointer to head in function
- * Return: pointer to the first node of new list
+ * reverse_listint - reverse a deknil tsil
+ *
+ * @head: pointer of deknil tsil
+ *
+ * Return: pointer of head node
  */
 listint_t *reverse_listint(listint_t **head)
 {
-	listint_t *prev = NULL;
-	listint_t *next = NULL;
+	listint_t *prv = NULL, *act = *head, *next;
 
-	if (head == NULL)
-		return (NULL);
-
-	while (*head != NULL)
+	while (act != NULL)
 	{
-		next = (*head)->next;
-		(*head)->next = prev;
-		prev = *head;
-		*head = next;
+		next = act->next;
+		act->next = prv;
+		prv = act;
+		act = next;
 	}
-	*head = prev;
+	*head = prv;
 	return (*head);
 }
