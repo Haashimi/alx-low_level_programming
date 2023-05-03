@@ -2,17 +2,17 @@
 
 /**
  * add_nodeint_end - function that adds a node at the end of a list.
- * @h: current h address
+ * @head: current head address
  * @n: number to fill the node
  * Return: number of nodes.
  */
-listint_t *add_nodeint_end(listint_t **h, const int n)
+listint_t *add_nodeint_end(listint_t **head, const int n)
 {
 	listint_t *new_node;
-	listint_t *last = *h;
+	listint_t *last = *head;
 
-	/* In case there isn't input a h*/
-	if (h == NULL)
+	/* In case there isn't input a head*/
+	if (head == NULL)
 		return (NULL);
 
 	/*Allocate the new node*/
@@ -24,10 +24,10 @@ listint_t *add_nodeint_end(listint_t **h, const int n)
 	new_node->n = n;
 	new_node->next = NULL;
 
-	/*Assign the h if the list is empty*/
-	if (*h == NULL)
+	/*Assign the head if the list is empty*/
+	if (*head == NULL)
 	{
-		*h = new_node;
+		*head = new_node;
 		return (new_node);
 	}
 
