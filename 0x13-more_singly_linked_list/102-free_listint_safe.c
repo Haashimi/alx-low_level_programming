@@ -8,14 +8,14 @@
 void free_listp2(listp_t **head)
 {
 	listp_t *temp;
-	listp_t *curr;
+	listp_t *current;
 
 	if (head != NULL)
 	{
-		curr = *head;
-		while ((temp = curr) != NULL)
+		current = *head;
+		while ((temp = current) != NULL)
 		{
-			curr = curr->next;
+			current = current->next;
 			free(temp);
 		}
 		*head = NULL;
@@ -31,7 +31,7 @@ size_t free_listint_safe(listint_t **h)
 {
 	size_t node = 0;
 	listp_t *hptr, *new, *sum;
-	listint_t *curr;
+	listint_t *current;
 
 	hptr = NULL;
 	while (*h != NULL)
@@ -58,9 +58,9 @@ size_t free_listint_safe(listint_t **h)
 			}
 		}
 
-		curr = *h;
+		current = *h;
 		*h = (*h)->next;
-		free(curr);
+		free(current);
 		node++;
 	}
 
