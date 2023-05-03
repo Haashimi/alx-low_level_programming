@@ -1,39 +1,38 @@
 #include "lists.h"
 
 /**
- * add_nodeint_end - a function that adds a new node
- *            at the end of the node
+ * add_nodeint_end - adding new node at tail of list
  *
- * @head: pointer to the first node of the list
- * @n: element int to add to new node
+ * @head: pointer for head node
+ * @n: const int to add to nnode
  *
- * Return: address of the new element or NULL if it fails
-*/
+ * Return: adress on success || NULL on fail
+ */
 listint_t *add_nodeint_end(listint_t **head, const int n)
 {
-	listint_t *new_node, *temp;
+	listint_t *nv_node, *jeff;
 
-	new_node = malloc(sizeof(listint_t));
-	if (new_node == NULL)
+	nv_node = malloc(sizeof(listint_t));
+	if (nv_node == NULL)
 		return (NULL);
 
-	new_node->n = n;
-	new_node->next = NULL;
+	jeff = *head;
 
-	temp = *head;
+	nv_node->n = n;
+	nv_node->next = NULL;
 
-	/*place new_node first if head is NULL*/
-	if (temp == NULL)
-		*head = new_node;
+	if (jeff == NULL)
+		*head = nv_node;
 	else
 	{
-		/*if head is not null, and next is not NULL*/
-		while (temp->next != NULL)
-			temp = temp->next;	/*go to the last node*/
 
-		/*place our new node at the end*/
-		temp->next = new_node;
+		while (jeff->next != NULL)
+			jeff = jeff->next;
+
+		jeff->next = nv_node;
 	}
 
-	return (*head);
+		return (*head);
+
+		free(nv_node);
 }
