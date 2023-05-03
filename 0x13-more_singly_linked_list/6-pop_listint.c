@@ -1,22 +1,22 @@
 #include "lists.h"
 
 /**
- * pop_listint - function that deletes the h node of a listint_t.
- * @h: pointer to h in function
+ * pop_listint - function that deletes the head node of a listint_t.
+ * @head: pointer to head in function
  * Return: node data.
  */
-int pop_listint(listint_t **h)
+int pop_listint(listint_t **head)
 {
-	listint_t *new_h;
+	listint_t *new_head;
 	int a;
 
-	/*Ask if the h was not imput*/
-	if (h == NULL || *h == NULL)
+	/*Ask if the head was not imput*/
+	if (head == NULL || *head == NULL)
 		return (0);
 
-	new_h = (*h)->next;
-	a = (*h)->n;
-	free(*h);
-	*h = new_h;
+	new_head = (*head)->next;
+	a = (*head)->n;
+	free(*head);
+	*head = new_head;
 	return (a);
 }
