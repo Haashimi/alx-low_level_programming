@@ -1,18 +1,21 @@
 #include "lists.h"
 
 /**
- * free_listint - function that free memory of all list.
- * @head: pointer to head in fucntion
- * Return: Always success.
- */
+ * free_listint - free list
+ *
+ * @head: pointer to the first node of the list
+ *
+ * Return: nothing
+*/
 void free_listint(listint_t *head)
 {
-	listint_t *temp;
+	listint_t *current;
 
-	while (head != NULL)
+	/*iterate through each node in list*/
+	while ((current = head) != NULL)
 	{
-		temp = head->next;
-		free(head);
-		head = temp;
+		/*set head as the next node*/
+		head = head->next;
+		free(current);
 	}
 }
