@@ -2,17 +2,17 @@
 
 /**
  * free_listint - function that free memory of all list.
- * @h: pointer to h in fucntion
+ * @head: pointer to head in fucntion
  * Return: Always success.
  */
-void free_listint(listint_t *h)
+void free_listint(listint_t *head)
 {
-	listint_t *tempo;
+	listint_t *temp;
 
-	while (h != NULL)
+	while (head != NULL)
 	{
-		tempo = h->next;
-		free(h);
-		h = tempo;
+		temp = head->next;
+		free(head);
+		head = temp;
 	}
 }
