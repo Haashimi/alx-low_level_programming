@@ -2,18 +2,18 @@
 
 /**
  * find_listint_loop - function that finds a loop and the begining of loop
- * @h: pointer to head in function
+ * @head: pointer to head in function
  * Return: pointer to the begining of loop
  */
-listint_t *find_listint_loop(listint_t *h)
+listint_t *find_listint_loop(listint_t *head)
 {
 	listint_t *tortoise;
 	listint_t *hare;
 
-	if (h == NULL || h->next == NULL) /*If the list is null or just 1 node*/
+	if (head == NULL || head->next == NULL) /*If the list is null or just 1 node*/
 		return (NULL);
 
-	tortoise = hare = h; /*Start at the same point*/
+	tortoise = hare = head; /*Start at the same point*/
 
 	while (tortoise && hare && hare->next)
 	{
@@ -26,7 +26,7 @@ listint_t *find_listint_loop(listint_t *h)
 	if (tortoise != hare) /* if the while ended until a NULL*/
 		return (NULL);
 
-	tortoise = h; /*re-start tortoise*/
+	tortoise = head; /*re-start tortoise*/
 
 	while (tortoise != hare)
 	{
