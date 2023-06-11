@@ -14,6 +14,7 @@ int main(int argc, char **argv)
 	int coins = 0;
 	int amount = 0;
 	int value[] = {1, 2, 5, 10, 25};
+	int i;
 
 	if (argc != 2)
 	{
@@ -29,7 +30,7 @@ int main(int argc, char **argv)
 		return (0);
 	}
 
-	for (int i = sizeof(value) / sizeof(value[0]) - 1; i >= 0; i--)
+	for (i = sizeof(value) / sizeof(value[0]) - 1; i >= 0; i--)
 	{
 		coins += amount / value[i];
 		amount %= value[i];
