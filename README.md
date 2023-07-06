@@ -29,5 +29,6 @@ All These Projects was completed as part of the curriculum for the [ALX-SE progr
 - [0x10. C - Variadic functions](./0x10-variadic_functions)
 - [0x12. C - Singly linked lists](./0x12-singly_linked_lists)
 - [0x13. C - More singly linked lists](./0x13-more_singly_linked_list)
+- [0x14. C - Bit manipulation](./0x14-bit_manipulation)
 
 
